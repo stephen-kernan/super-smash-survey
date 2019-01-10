@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Cantarell:400i|Fira+Sans:300i|Josefin+Sans|Poppins" rel="stylesheet">
+        <link rel="stylesheet" href="main.css" />
+        <title>The Perfect Super Smash Bros. Website</title>
+    </head>
+
+    <body>
+    
+        <h1 id="title">The Perfect Super Smash Bros. Website</h1>
+            <div id="card">
+                <div id="info">
+                <p id="description">What does your dream Super Smash Bros website look like?</p>
+                </div>
+                <div id="questionnaire">
+                    <form id="survey-form">
+                        <div class="question">
+                            <label id="name-label" for="name">* Name:</label>
+                        </div>
+                        <div class="answer">
+                            <input autofocus class="answer input-field" id="name" type="text" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="question">
+                            <label id="email-label" for="email">* Email:</label>
+                        </div>
+                        <div class="answer">
+                            <input type="email" name="email" class="answer input-field" id="email" required placeholder="Enter your email address">
+                        </div>
+                        <div class="question">
+                            <label id="number-label" for="age">* Age:</label>
+                        </div>
+                        <div class="answer">
+                            <input type="number" min="1" max="100" name="age" class="answer input-field" id="number" placeholder="Enter your age" required>
+                        </div>
+                        <div class="question">
+                            <label id="smash-game-label" for="smash-game">What is your favorite Smash Bros game?</label>
+                        </div>
+                        <div class="answer">
+                            <select class="answer" id="dropdown" name="smash-game" placeholder="Select your favorite Super Smash Bros game">
+                                <option disabled value>Select your favorite Super Smash Bros game</option>
+                                <option value="N64">Super Smash Bros (N64)</option>
+                                <option value="gamecube">Super Smash Bros Melee (GameCube)</option>
+                                <option value="wii">Super Smash Bros Brawl (Wii)</option>
+                                <option value="wiiu">Super Smash Bros for Wii U</option>
+                                <option value="switch">Super Smash Bros Ultimate (Switch)</option>
+                                <option value="no-preference">No Preference</option>
+                            </select>
+                        </div>
+                        <div class="question">
+                            <label id="level-label">What is your level of competitiveness in Smash?</label>
+                        </div>
+                        <div class="answer">
+                            <ul>
+                                <li class="radio"><label><input name="radio-buttons" type="radio" value="1">I play for fun</label></li>
+                                <li class="radio"><label><input name="radio-buttons" type="radio" value="2">I'm a For Glory Hero</label></li>
+                                <li class="radio"><label><input name="radio-buttons" type="radio" value="3">I've been to some tournaments</label></li>
+                                <li class="radio"><label><input name="radio-buttons" type="radio" value="4">I'm a serious tournament junkie</label></li>
+                        </div>
+                        <div class="question">
+                            <label for="suggestion">What features would you like to see in your ideal Super Smash Bros website?<br/><em>(Check all that apply)</em></label>
+                        </div>
+                        <div class="answer">
+                            <ul>
+                                <li><label for="framedata"><input type="checkbox" name="suggestion" value="framedata">Frame Data</label></li>
+                                <li><label for="movesets"><input type="checkbox" name="suggestion" value="movesets">Character Movesets</label></li>
+                                <li><label for="prosList"><input type="checkbox" name="suggestion" value="prosList">List of Pros who share your main</label></li>
+                                <li><label for="footage"><input type="checkbox" name="suggestion" value="footage">High-level footage</label></li>
+                                <li><label for="mainGuide"><input type="checkbox" name="suggestion" value="mainGuide">Guide(s) for picking a main</label></li>
+                        </div>
+                        <div class="question">
+                            <label for="comments" id="comments">Any Comments or Suggestions?</label>
+                        </div>
+                        <div class="answer">
+                            <textarea type="text" class="input-field" name="comments" placeholder="If you have any comments or suggestions, please enter them here" style=height:50px;resize:vertical;></textarea>
+                        </div>
+                        <div class="question">
+                            <button id="submit" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </body>
+
+</html>

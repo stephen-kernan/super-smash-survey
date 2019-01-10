@@ -1,0 +1,132 @@
+html, body, #title {
+  background-color: hsl(282, 63%, 76%);
+}
+#card {
+  box-shadow: 0.4vw 0.4vw 2px black;
+  padding: 2%;
+  border-radius: 25px;
+}
+div {
+  background-color: white;
+}
+#title {
+  font-family: 'Poppins', sans-serif;
+  background-color: none;
+  font-size: 3.2vw;
+}
+p {
+  padding: 0px;
+  margin: 0px;
+  line-height: 100%;
+}
+#info {
+  padding: 0;
+  margin: 0 0 3% 0;
+}
+h1 {
+  margin: 0;
+  padding: 1%;
+  text-align: center;
+}
+#info p {
+  padding: 1%;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+}
+#description {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 2.2vw;
+  margin: 0;
+  padding: 0;
+}
+.question {
+  display: inline-block;
+  text-align: right;
+  width: 48%;
+  padding: 1%;
+  vertical-align: top;
+}
+.answer {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+}
+#dropdown {
+  height: auto;
+  width: 200px;
+  margin: 1%;
+  padding: 1%;
+  border: 300px, solid, hsl(0, 0%, 70%);
+  border-radius: 5px;
+}
+.radio {
+  position: relative;
+  display: block;
+  left: -5%;
+}
+.input-field {
+  height: 20px;
+  width: 280px;
+  margin: 1%;
+  padding: 1%;
+  border: 2px solid hsl(0, 0%, 70%);
+  border-radius: 5px;
+}
+label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2vw;
+}
+input[type="checkbox"] {
+  position: relative;
+  text-align: left;
+  left: -5%;
+  padding: 0px;
+  margin: 0;
+  max-width: 50%;
+}
+#name {
+  margin-bottom: 2%;
+}
+#email {
+  margin-bottom: 2%;
+}
+#age {
+  margin-bottom: 2%;
+}
+#smash-game {
+  margin-bottom: 2%;
+}
+#comments {
+  vertical-align: top;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  
+}
+button {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin: 2%;
+  padding: 0.5% 2%;
+  border-radius: 5px;
+  background: linear-gradient(45deg, hsl(282, 63%, 25%), hsl(282, 63%, 50%));
+}
+@media (max-width: 300px) {
+  .question {
+    width: 100%;
+    text-align: left;
+  }
+  .answer
+  .input-field {
+    width: 100%;
+    text-align: left;
+  }
+  .radio, #dropdown {
+    width: 100%;
+  }
+  
+}
